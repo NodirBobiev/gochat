@@ -69,7 +69,8 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		authCookieValue := objx.New(map[string]interface{}{
-			"name": user.Name(),
+			"name":       user.Name(),
+			"avatar_url": user.AvatarURL(),
 		}).MustBase64()
 		http.SetCookie(w, &http.Cookie{
 			Name:  "auth",
@@ -82,4 +83,15 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusNotFound)
 		fmt.Fprintf(w, "Auth action %s not supported", action)
 	}
+}
+
+func logoutHandler(w http.ResponseWriter, _ *http.Request) {
+	http.SetCookie(w, &http.Cookie{
+		Name:   "auth",
+		Value:  "",
+		Path:   "/",
+		MaxAge: -1,
+	})
+	w.Header().Set("Location", "/chat")
+	w.WriteHeader(http.StatusTemporaryRedirect)
 }
