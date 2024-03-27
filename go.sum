@@ -1,6 +1,7 @@
 github.com/clbanning/x2j v0.0.0-20191024224557-825249438eec h1:EdRZT3IeKQmfCSrgo8SZ8V3MEnskuJP0wCYNpe+aiXo=
 github.com/clbanning/x2j v0.0.0-20191024224557-825249438eec/go.mod h1:jMjuTZXRI4dUb/I5gc9Hdhagfvm9+RyrPryS/auMzxE=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gorilla/websocket v1.5.1 h1:gmztn0JnHVt9JZquRuzLw3g4wouNVzKL15iLr/zn/QY=
 github.com/gorilla/websocket v1.5.1/go.mod h1:x3kM2JMyaluk02fnUJpQuwD2dCS5NDG2ZHL0uE0tcaY=
 github.com/kr/pretty v0.2.1 h1:Fmg33tUaq4/8ym9TJN1x7sLJnHVwhP33CNkpYV/7rwI=
@@ -9,6 +10,7 @@ github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0 h1:45sCR5RtlFHMR4UwH9sdQ5TC8v0qDQCHnXt+kaKSTVE=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/codecs v0.0.0-20170403063245-04a5b1e1910d h1:gXQ+QS3q874pcayiqszimfHPQ7ySFcekgzBMoTaVawk=
 github.com/stretchr/codecs v0.0.0-20170403063245-04a5b1e1910d/go.mod h1:RpfDhdqip2BYhzoE4esKm8axH5VywpvMW9o3wfcamek=
 github.com/stretchr/gomniauth v0.0.0-20170717123514-4b6c822be2eb h1:6lYIg/SCrz3gsCsEpRpK0BW3tBGt4VuQKlAleoxCgCc=
@@ -20,6 +22,7 @@ github.com/stretchr/signature v0.0.0-20160104132143-168b2a1e1b56/go.mod h1:p8v7x
 github.com/stretchr/stew v0.0.0-20130812190256-80ef0842b48b h1:DmfFjW6pLdaJNVHfKgCxTdKFI6tM+0YbMd0kx7kE78s=
 github.com/stretchr/stew v0.0.0-20130812190256-80ef0842b48b/go.mod h1:yS/5aMz+lfJhykLjlAGbnhUhZIvVapOvtmk0MtzHktE=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
+github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/stretchr/tracer v0.0.0-20140124184152-66d3696bba97 h1:ZXZ3Ko4supnaInt/pSZnq3QL65Qx/KSZTUPMJH5RlIk=
 github.com/stretchr/tracer v0.0.0-20140124184152-66d3696bba97/go.mod h1:H0mYc1JTiYc9K0keLMYcR2ybyeom20X4cOYrKya1M1Y=
 github.com/ugorji/go/codec v1.2.12 h1:9LC83zGrHhuUA9l16C9AHXAqEV/2wBQ4nkvumAE65EE=
@@ -34,3 +37,4 @@ gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22/go.mod h1:yeKp02qBN3iKW1OzL3M
 gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
 gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
